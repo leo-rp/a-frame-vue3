@@ -4,6 +4,8 @@ import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader';
 import sky from '@/assets/stars.jpg'
 import mountain from '@/assets/models/mountain.glb';
 
+import RocketComponent from './RocketComponent.vue';
+
 
 
 const loader = new GLTFLoader();
@@ -21,11 +23,12 @@ loader.load(mountain, (d) => {
 		</a-assets>
 		
 		<a-sky
-			color= "#e2e2e2"
+			color= "#ffffff"
 			material="src: #sky"
 			rotation = "0 0 0"
 		/>
 
-		<a-entity id="mountain" position="0 0 0" scale="10 10 10"/>
+		<a-entity id="mountain" position="0 0 0" scale="15 15 15"/>
+		<RocketComponent x="0" y="50" z="-80" />
 	</a-scene>	
 </template>
