@@ -1,6 +1,6 @@
-a-frame+ Vue 3 version of "How to build a Metaverse with React JS" tutorial : https://www.youtube.com/watch?v=J9Snqj3D3cg
-
 # a-frame-demo
+a-frame + Vue 3 version of "How to build a Metaverse with React JS" tutorial : https://www.youtube.com/watch?v=J9Snqj3D3cg
+
 
 
 This template should help get you started developing with Vue 3 in Vite.
